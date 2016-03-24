@@ -1,0 +1,7 @@
+<ingredient-display *ngFor="#currentIngredient of ingredientList"
+  (click)="ingredientClicked(currentIngredient)"
+  [class.selected]="currentIngredient === selectedIngredient"
+  [ingredient]="currentIngredient">
+</ingredient-display>
+<edit-ingredient *ngIf="selectedIngredient" [ingredient]="selectedIngredient"></edit-ingredient>
+<new-ingredient (onSubmitNewIngredient)="createIngredient($event)"></new-ingredient>

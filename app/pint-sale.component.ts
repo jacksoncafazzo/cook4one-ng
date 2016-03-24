@@ -1,19 +1,19 @@
 import { Component, EventEmitter } from 'angular2/core';
-import { KegComponent } from './keg.component';
-import { Keg } from './keg.model';
+import { IngredientComponent } from './ingredient.component';
+import { Ingredient } from './ingredient.model';
 
 @Component({
   selector: 'pint-sale',
-  inputs: ['keg'],
+  inputs: ['ingredient'],
   template: `
-    <button (click)="subtractPint(keg)" class="btn btn-alert add-button">Pint Sale</button>
+    <button (click)="subtractPint(ingredient)" class="btn btn-alert add-button">Pint Sale</button>
   `
 })
 
 export class PintSaleComponent {
-  public keg: Keg;
-  subtractPint(keg: Keg): void {
-    keg.pints--;
-  
+  public ingredient: Ingredient;
+  subtractPint(ingredient: Ingredient): void {
+    //ingredient.pints--;
+
   }
 }

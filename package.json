@@ -1,7 +1,7 @@
 {
-  "name": "tap-room-app",
+  "name": "cook4one",
   "version": "1.0.0",
-  "description": "tap room app shows beer left",
+  "description": "show a recipe for one (or as many as you like)",
   "main": "index.js",
   "scripts": {
     "start": "npm run tsc:w",
@@ -41,5 +41,13 @@
   },
   "keywords": [
     "beer"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksoncafazzo/cook4one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacksoncafazzo/cook4one/issues"
+  },
+  "homepage": "https://github.com/jacksoncafazzo/cook4one#readme"
 }

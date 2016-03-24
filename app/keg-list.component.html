@@ -1,7 +1,0 @@
-<keg-display *ngFor="#currentKeg of kegList"
-  (click)="kegClicked(currentKeg)"
-  [class.selected]="currentKeg === selectedKeg"
-  [keg]="currentKeg">
-</keg-display>
-<edit-keg *ngIf="selectedKeg" [keg]="selectedKeg"></edit-keg>
-<new-keg (onSubmitNewKeg)="createKeg($event)"></new-keg>
