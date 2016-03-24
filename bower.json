@@ -1,0 +1,29 @@
+{
+  "name": "tap-room-angular2",
+  "description": "keep track of kegs by pint sales",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "authors": [
+    "Jackson Cafazzo <doctorjuno@gmail.com>"
+  ],
+  "keywords": [
+    "beer",
+    "kegs",
+    "angular2"
+  ]
+}
